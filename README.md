@@ -1,7 +1,8 @@
 # bitwise64
 
 [![npm version](https://badge.fury.io/js/bitwise64.svg)](https://badge.fury.io/js/bitwise64)
-
+[![dependencies](https://david-dm.org/pocka/rusted.svg)](https://david-dm.org/pocka/rusted)
+[![Build Status](https://travis-ci.org/pocka/bitwise64.svg?branch=master)](https://travis-ci.org/pocka/bitwise64)
 
 Emurates 64-bit bitwise operation.
 
