@@ -4,7 +4,7 @@ var bw64=require('../index');
 
 describe('bitwise64',function(){
 	describe('#and()',function(){
-		it('should return 0xFFFFFFFFFFFF0 when FFFFFFFFFFFFF and 0xFFFFFFFFFFFFF are passed',function(){
+		it('should return 0xFFFFFFFFFFFF0 when 0xFFFFFFFFFFFF0 and 0xFFFFFFFFFFFFF are passed',function(){
 			expect(bw64.and(0xFFFFFFFFFFFF0,0xFFFFFFFFFFFFF)).to.equal(0xFFFFFFFFFFFF0);
 		});
 	});
