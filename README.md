@@ -1,12 +1,17 @@
 # bitwise64
 
 [![npm version](https://badge.fury.io/js/bitwise64.svg)](https://badge.fury.io/js/bitwise64)
-[![dependencies](https://david-dm.org/pocka/rusted.svg)](https://david-dm.org/pocka/rusted)
+[![dependencies](https://david-dm.org/pocka/bitwise64.svg)](https://david-dm.org/pocka/bitwise64)
 [![Build Status](https://travis-ci.org/pocka/bitwise64.svg?branch=master)](https://travis-ci.org/pocka/bitwise64)
 
 Emurates 64-bit bitwise operation.
 
 (Due to ECMAScript laungauge specification 53bit~ might not work well)
+
+## Note
+
+There are [BigInt proposal](https://github.com/tc39/proposal-bigint) on stage-3.
+When it would be merged to main stream and major browsers implement it, we could operate 64-bit bitwise natively and you should use it instead of this library.
 
 ## Install
 
